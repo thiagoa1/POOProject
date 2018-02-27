@@ -8,7 +8,7 @@ public class Application {
 		faculdade.cursos.add(new Curso("Direito", 45));
 
 		System.out.println("Nome: " + faculdade.nome);
-		System.out.println("Endere�o: " + faculdade.endereco);
+		System.out.println("Endereço: " + faculdade.endereco);
 
 		for (Curso curso : faculdade.cursos) {
 			System.out.println("=============================");
@@ -16,8 +16,8 @@ public class Application {
 			System.out.println("Vagas: " + curso.vagas);
 		}
 
-		// Animal animal = new Animal();
-		// animal.addOrgao(new Orgao());
+		Animal animal = new Animal("Jumento");
+		animal.orgaos.add(new Orgao("Coração"));
 
 		Pessoa pessoa = new Pessoa("TRP", "12345678912", new Profissao("Professor", 2000d));
 
